@@ -77,8 +77,8 @@
 body {
   /* max-width: 60%; */
   min-width: 350px;
-  width: 90%;
-  @apply max-w-5xl;
+  width: 80%;
+  @apply mx-4 max-w-5xl;
 
   /* @apply w-screen; */
   /* padding: 0 10%; */

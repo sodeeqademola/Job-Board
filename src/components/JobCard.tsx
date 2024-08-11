@@ -71,11 +71,11 @@ const JobCard = async ({
               <Image
                 src={job.companyLogoUrl || "/laptop.jpg"}
                 alt={"laptop"}
-                height={120}
-                width={130}
+                height={70}
+                width={100}
                 quality={95}
                 priority
-                className="[w-10%] mr-2 rounded-full"
+                className="m-2 rounded-full"
               />
               <div className="mr-auto mt-2 w-[45%] grow leading-6 tracking-normal">
                 <h1>{job.title}</h1>
